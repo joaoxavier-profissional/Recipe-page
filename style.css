@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, h3, li, table {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.receita {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 2.5rem;
+    border-radius: 24px;
+    margin-bottom: 4rem;
+}
+
+.receita img {
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.resumo p {
+    margin-bottom: 2.5rem;
+}
+
+.preparo {
+    background: hsl(330, 100%, 98%);
+    padding: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 24px;
+    margin-bottom: 2.5rem;
+}
+
+.preparo h3 {
+    margin-bottom: 0.8rem;
+}
+
+.preparo ul {
+    padding-left: 2rem;
+}
+
+.preparo ul li {
+    margin-bottom: 0.5rem;
+}
+
+.ingredientes h2 {
+    margin-bottom: 1rem;
+}
+
+.ingredientes ul {
+    padding-left: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.ingredientes ul li {
+    margin-bottom: 0.5rem;
+}
+
+.linha {
+    color: hsl(30, 54%, 90%);
+    margin-bottom: 2.5rem;
+}
+
+.instrucoes h2 {
+    margin-bottom: 1rem;
+}
+
+.instrucoes ol {
+    padding-left: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.instrucoes li::marker {
+    font-weight: bold;
+}
+
+.instrucoes ol li {
+    margin-bottom: 1rem;
+}
+
+.nutricao h2 {
+    margin-bottom: 1rem;
+}
+
+.nutricao p {
+    margin-bottom: 0.5rem;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    text-indent: 2.3rem;
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 0 1rem 0;
+}
+
+.attribution {
+    display: none;
+}
